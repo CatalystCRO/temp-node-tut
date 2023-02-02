@@ -1,3 +1,9 @@
+/*event loop = is what allows Node.js to perform non-blocking input/output operations - 
+despite the fact that JavaScript is single threaded - by offloading operations to the system
+kernel whenever possible
+
+*/
+
 const {readFile} = require('fs')
 
 console.log('started a first task')
